@@ -1,14 +1,17 @@
 proxies:
-  - name: FAST
+  - name: sshocean-hshshsakka-ws
     server: quiz.vidio.com
     port: 443
-    type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
+    type: vmess
+    uuid: c365a78b-42df-4eed-82ec-f1dd7163356d
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg-4.test3.net
+    servername: hk1.v2vmess.site
     network: ws
     ws-opts:
-      path: /howdy
+      path: /vmess
       headers:
-        Host: sg-4.test3.net
+        Host: hk1.v2vmess.site
     udp: true
