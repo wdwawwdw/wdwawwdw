@@ -1,17 +1,14 @@
 proxies:
-  - name: sshocean-hshshsakka-ws
+  - name: sshocean-2eqedwdwd_ws
     server: quiz.vidio.com
     port: 443
-    type: vmess
-    uuid: c365a78b-42df-4eed-82ec-f1dd7163356d
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 15ccee29-3be7-4ad7-88b6-0d57b71bfcab
     skip-cert-verify: true
-    servername: hk1.v2vmess.site
+    sni: hk1.trojanvpn.de
     network: ws
     ws-opts:
-      path: /vmess
+      path: "%2Fwebsocket"
       headers:
-        Host: hk1.v2vmess.site
+        Host: hk1.trojanvpn.de
     udp: true
