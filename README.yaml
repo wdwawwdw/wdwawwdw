@@ -1,6 +1,6 @@
 proxies:
   - name: sshocean-2eqedwdwd_ws
-    server: quiz.vidio.com
+    server: cvs-deo.shopeemobile.com
     port: 443
     type: trojan
     password: 15ccee29-3be7-4ad7-88b6-0d57b71bfcab
