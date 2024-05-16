@@ -1,6 +1,6 @@
 proxies:
   - name: id2tr.jagoan.vip
-    server: id2tr.jagoan.vip
+    server: quiz.vidio.com
     port: 443
     type: trojan
     password: trial-Hahahah17717
