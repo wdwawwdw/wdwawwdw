@@ -12,37 +12,3 @@ proxies:
     path: "/trojan"
     headers:
       Host: id1.antonbrc.com
-- name: protek 2 salto
-  type: trojan
-  server: 104.18.62.203
-  port: 443
-  password: hope23
-  udp: true
-  sni: id1.antonbrc.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: id1.antonbrc.com
-- name: protek 3 ssl
-  type: trojan
-  server: id1.antonbrc.com
-  port: 443
-  password: hope23
-  udp: true
-  sni: cvs-deo.shopeemobile.com
-  skip-cert-verify: true
-- name: protek 4 ssl
-  type: trojan
-  server: id1.antonbrc.com
-  port: 443
-  password: hope23
-  udp: true
-  sni: cvs-deo.shopeemobile.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: cvs-deo.shopeemobile.com
