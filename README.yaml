@@ -1,14 +1,17 @@
 proxies:
-  - name: sgtr.jagoan.vip
-    server: cvs-deo.shopeemobile.com
+  - name: trial-wddaadwa1212
+    server: quiz.int.vidio.com
     port: 443
-    type: trojan
-    password: trial-aw131wawd
+    type: vmess
+    uuid: 09b62ac9-3568-476e-b5df-ec64eead4137
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgtr.jagoan.vip
+    servername: idray.jagoan.vip
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vvip
       headers:
-        Host: sgtr.jagoan.vip
+        Host: idray.jagoan.vip
     udp: true
