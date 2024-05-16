@@ -1,14 +1,14 @@
 proxies:
-  - name: sshocean-2eqedwdwd_ws
-    server: cvs-deo.shopeemobile.com
+  - name: sshocean-awdasdwdasdw_ws
+    server: hk1.trojanvpn.de
     port: 443
     type: trojan
-    password: 15ccee29-3be7-4ad7-88b6-0d57b71bfcab
+    password: a1184744-f9c8-4722-85d4-9fb3470e6c3f
     skip-cert-verify: true
     sni: hk1.trojanvpn.de
     network: ws
     ws-opts:
-      path: "%2Fwebsocket"
+      path: /websocket
       headers:
         Host: hk1.trojanvpn.de
     udp: true
