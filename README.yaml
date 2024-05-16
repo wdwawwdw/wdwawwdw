@@ -1,14 +1,48 @@
 proxies:
-  - name: sshocean-awasdw123_ws
-    server: quiz.int.vidio.com
-    port: 443
-    type: trojan
-    password: a1184744-f9c8-4722-85d4-9fb3470e6c3f
-    skip-cert-verify: true
-    sni: hk1.trojanvpn.de
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: hk1.trojanvpn.de
-    udp: true
+- name: protek 1 salto
+  type: trojan
+  server: 104.18.56.56
+  port: 443
+  password: hope23
+  udp: true
+  sni: id1.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id1.antonbrc.com
+- name: protek 2 salto
+  type: trojan
+  server: 104.18.62.203
+  port: 443
+  password: hope23
+  udp: true
+  sni: id1.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id1.antonbrc.com
+- name: protek 3 ssl
+  type: trojan
+  server: id1.antonbrc.com
+  port: 443
+  password: hope23
+  udp: true
+  sni: cvs-deo.shopeemobile.com
+  skip-cert-verify: true
+- name: protek 4 ssl
+  type: trojan
+  server: id1.antonbrc.com
+  port: 443
+  password: hope23
+  udp: true
+  sni: cvs-deo.shopeemobile.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: cvs-deo.shopeemobile.com
