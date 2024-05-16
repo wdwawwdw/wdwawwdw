@@ -1,14 +1,14 @@
 proxies:
-- name: protek 4 ssl
+- name: protek 1 salto
   type: trojan
-  server: id1.antonbrc.com
+  server: quiz.vidio.net
   port: 443
   password: hope23
   udp: true
-  sni: cvs-deo.shopeemobile.com
+  sni: id1.antonbrc.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: cvs-deo.shopeemobile.com
+      Host: id1.antonbrc.com
