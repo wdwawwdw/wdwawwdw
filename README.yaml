@@ -1,6 +1,6 @@
 proxies:
   - name: sgtr.jagoan.vip
-    server: sgtr.jagoan.vip
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: vvip-Qqz1234a
