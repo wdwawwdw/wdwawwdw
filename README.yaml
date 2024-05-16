@@ -1,6 +1,6 @@
 proxies:
   - name: sgtr.jagoan.vip
-    server: quiz.vidio.com
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: trial-aw131wawd
