@@ -3,12 +3,10 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: trial-Hsysywus61661
+    password: trial-Hdhshsjsj7272
     skip-cert-verify: true
     sni: id2tr.jagoan.vip
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id2tr.jagoan.vip
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
     udp: true
