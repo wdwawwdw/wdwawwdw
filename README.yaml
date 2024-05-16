@@ -1,5 +1,5 @@
 proxies:
-- name: protek 3 ssl
+- name: protek 4 ssl
   type: trojan
   server: id1.antonbrc.com
   port: 443
@@ -7,3 +7,8 @@ proxies:
   udp: true
   sni: cvs-deo.shopeemobile.com
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: cvs-deo.shopeemobile.com
