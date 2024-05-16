@@ -1,14 +1,14 @@
 proxies:
-  - name: sgtr.jagoan.vip
+  - name: sshocean-awasdw123_ws
     server: quiz.int.vidio.com
     port: 443
     type: trojan
-    password: vvip-Qqz1234a
+    password: a1184744-f9c8-4722-85d4-9fb3470e6c3f
     skip-cert-verify: true
-    sni: sgtr.jagoan.vip
+    sni: hk1.trojanvpn.de
     network: ws
     ws-opts:
-      path: /trojan
+      path: /websocket
       headers:
-        Host: sgtr.jagoan.vip
+        Host: hk1.trojanvpn.de
     udp: true
