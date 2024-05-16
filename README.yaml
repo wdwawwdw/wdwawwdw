@@ -1,14 +1,9 @@
 proxies:
-  - name: sshocean-awdasdwdasdw_ws
-    server: hk1.trojanvpn.de
+  - name: id2tr.jagoan.vip
+    server: id2tr.jagoan.vip
     port: 443
     type: trojan
-    password: a1184744-f9c8-4722-85d4-9fb3470e6c3f
+    password: trial-Hahahah17717
     skip-cert-verify: true
-    sni: hk1.trojanvpn.de
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: hk1.trojanvpn.de
+    sni: ""
     udp: true
