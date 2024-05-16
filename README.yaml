@@ -1,17 +1,14 @@
 proxies:
-  - name: trial-Hshshhwjwj2727
+  - name: sgtr.jagoan.vip
     server: quiz.vidio.com
     port: 443
-    type: vmess
-    uuid: 9c0a6756-8c7e-4bee-aee2-210b94c13be1
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: trial-aw131wawd
     skip-cert-verify: true
-    servername: sg3ray.jagoan.vip
+    sni: sgtr.jagoan.vip
     network: ws
     ws-opts:
-      path: /vvip
+      path: /trojan
       headers:
-        Host: sg3ray.jagoan.vip
+        Host: sgtr.jagoan.vip
     udp: true
