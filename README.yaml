@@ -1,12 +1,17 @@
 proxies:
-  - name: id2tr.jagoan.vip
+  - name: trial-Hshshhwjwj2727
     server: quiz.vidio.com
     port: 443
-    type: trojan
-    password: trial-Hdhshsjsj7272
+    type: vmess
+    uuid: 9c0a6756-8c7e-4bee-aee2-210b94c13be1
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id2tr.jagoan.vip
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
+    servername: sg3ray.jagoan.vip
+    network: ws
+    ws-opts:
+      path: /vvip
+      headers:
+        Host: sg3ray.jagoan.vip
     udp: true
