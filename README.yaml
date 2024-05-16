@@ -1,6 +1,6 @@
 proxies:
   - name: sgtr.jagoan.vip
-    server: quiz.int.vidio.com
+    server: cvs-deo.shopeemobile.com
     port: 443
     type: trojan
     password: trial-aw131wawd
