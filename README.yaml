@@ -1,7 +1,7 @@
 proxies:
-- name: protek 1 salto
+- name: protek 2 salto
   type: trojan
-  server: quiz.vidio.com
+  server: 104.18.62.203
   port: 443
   password: hope23
   udp: true
